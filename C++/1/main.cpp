@@ -4,6 +4,12 @@ using namespace std;
 
 class Solution {
 public:
+    /**
+     * 哈希map1
+     * @param nums
+     * @param target
+     * @return
+     */
     vector<int> twoSum(vector<int> &nums, int target) {
         for (int i = 0; i < nums.size(); i++) {
             if (h.find(target - nums[i]) != h.end()) {
@@ -14,6 +20,12 @@ public:
         return {};
     }
 
+    /**
+     * 双指针扫描
+     * @param nums
+     * @param target
+     * @return
+     */
     vector<int> twoSum2(vector<int> &nums, int target) {
         vector<pair<int, int>> pairs;
         for (int i = 0; i < nums.size(); i++) {
@@ -32,8 +44,8 @@ public:
             }
         }
         return {};
-
     }
+
 
 private:
     unordered_map<int, int> h;
