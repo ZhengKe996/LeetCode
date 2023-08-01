@@ -77,6 +77,8 @@
 | 77  |   组合    | [C++](C++/77/main.cpp) | [Java](Java/src/L77/Solution.java) |
 | 46  |  全排列   | [C++](C++/46/main.cpp) | [Java](Java/src/L46/Solution.java) |
 | 47  | 全排列 II | [C++](C++/47/main.cpp) | [Java](Java/src/L47/Solution.java) |
+| 50  | Pow(x, n) | [C++](C++/50/main.cpp) | [Java](Java/src/L50/Solution.java) |
+| 22  | 括号生成  | [C++](C++/22/main.cpp) | [Java](Java/src/L22/Solution.java) |
 
 ## 树 🌲
 
