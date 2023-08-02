@@ -82,9 +82,15 @@
 
 ## 树 🌲
 
-| ID  |       Name       |           C++           |                Java                 |
-| :-: | :--------------: | :---------------------: | :---------------------------------: |
-| 226 |    翻转二叉树    | [C++](C++/226/main.cpp) | [Java](Java/src/L226/Solution.java) |
-| 98  |  验证二叉搜索树  | [C++](C++/98/main.cpp)  | [Java](Java/src/L98/Solution.java)  |
-| 104 | 二叉树的最大深度 | [C++](C++/104/main.cpp) | [Java](Java/src/L104/Solution.java) |
-| 111 | 二叉树的最小深度 | [C++](C++/111/main.cpp) | [Java](Java/src/L111/Solution.java) |
+| ID  |              Name              |           C++           |                Java                 |
+| :-: | :----------------------------: | :---------------------: | :---------------------------------: |
+| 226 |           翻转二叉树           | [C++](C++/226/main.cpp) | [Java](Java/src/L226/Solution.java) |
+| 98  |         验证二叉搜索树         | [C++](C++/98/main.cpp)  | [Java](Java/src/L98/Solution.java)  |
+| 104 |        二叉树的最大深度        | [C++](C++/104/main.cpp) | [Java](Java/src/L104/Solution.java) |
+| 111 |        二叉树的最小深度        | [C++](C++/111/main.cpp) | [Java](Java/src/L111/Solution.java) |
+| 94  |        二叉树的中序遍历        | [C++](C++/94/main.cpp)  | [Java](Java/src/L94/Solution.java)  |
+| 589 |        N 叉树的前序遍历        | [C++](C++/589/main.cpp) | [Java](Java/src/L589/Solution.java) |
+| 429 |        N 叉树的层序遍历        | [C++](C++/429/main.cpp) | [Java](Java/src/L429/Solution.java) |
+| 297 |  二叉树的序列化与反序列化 ⭐️  | [C++](C++/297/main.cpp) | [Java](Java/src/L297/Solution.java) |
+| 105 | 从前序与中序遍历序列构造二叉树 | [C++](C++/105/main.cpp) | [Java](Java/src/L105/Solution.java) |
+| 106 | 从中序与后序遍历序列构造二叉树 | [C++](C++/106/main.cpp) | [Java](Java/src/L106/Solution.java) |
