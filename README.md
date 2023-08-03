@@ -1,5 +1,11 @@
 # LeetCode
 
+<p align="center">
+<img src="https://img.shields.io/badge/language-C++-green?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-java-yellow?style=for-the-badge">
+<img src="https://img.shields.io/badge/language-golang-6BACF9?style=for-the-badge">
+</p>
+
 ## 数组
 
 | ID  |          Name          |           C++           |                Java                 |
@@ -94,3 +100,20 @@
 | 297 |  二叉树的序列化与反序列化 ⭐️  | [C++](C++/297/main.cpp) | [Java](Java/src/L297/Solution.java) |
 | 105 | 从前序与中序遍历序列构造二叉树 | [C++](C++/105/main.cpp) | [Java](Java/src/L105/Solution.java) |
 | 106 | 从中序与后序遍历序列构造二叉树 | [C++](C++/106/main.cpp) | [Java](Java/src/L106/Solution.java) |
+| 236 |   二叉树的最近公共祖先(LCA)    | [C++](C++/236/main.cpp) | [Java](Java/src/L236/Solution.java) |
+
+## 图
+
+| ID  |   Name   |           C++           |                Java                 |
+| :-: | :------: | :---------------------: | :---------------------------------: |
+| 207 |  课程表  | [C++](C++/207/main.cpp) | [Java](Java/src/L207/Solution.java) |
+| 684 | 冗余连接 | [C++](C++/684/main.cpp) | [Java](Java/src/L684/Solution.java) |
+
+## 深度优先搜索(DFS)
+
+| ID  |        Name        |           C++           |                Java                 |
+| :-: | :----------------: | :---------------------: | :---------------------------------: |
+| 17  | 电话号码的字母组合 | [C++](C++/17/main.cpp)  | [Java](Java/src/L17/Solution.java)  |
+| 51  |       N 皇后       | [C++](C++/51/main.cpp)  | [Java](Java/src/L51/Solution.java)  |
+| 200 |      岛屿数量      | [C++](C++/200/main.cpp) | [Java](Java/src/L200/Solution.java) |
+| 433 |    最小基因变化    | [C++](C++/433/main.cpp) | [Java](Java/src/L433/Solution.java) |
