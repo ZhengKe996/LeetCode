@@ -20,11 +20,11 @@ public class Solution {
                     if (gene[j] != s.charAt(i)) {
                         StringBuffer ns = new StringBuffer(s);
                         ns.setCharAt(i, gene[j]);
-                        if (!hashBank.contains(ns)) continue;
-                        if (depth.containsKey(ns)) continue;
+                        if (!hashBank.contains(ns.toString())) continue;
+                        if (depth.containsKey(ns.toString())) continue;
                         depth.put(ns.toString(), depth.get(s) + 1);
                         queue.add(ns.toString());
-                        if (ns.toString() == endGene) return depth.get(ns.toString());
+                        if (ns.toString().equals(endGene)) return depth.get(ns.toString()); // Java字符串比较用equals
                     }
                 }
             }
@@ -81,19 +81,22 @@ public class Solution {
 
         String start = "AACCGGTT", end = "AACCGGTA";
         String[] bank = {"AACCGGTA"};
-        int ans = solution.minMutation2(start, end, bank);
-        System.out.println(ans);
+        int ans = solution.minMutation(start, end, bank);
+        int ans2 = solution.minMutation2(start, end, bank);
+        System.out.println(ans + "=====" + ans2);
 
         start = "AACCGGTT";
         end = "AAACGGTA";
         String[] bank2 = {"AACCGGTA", "AACCGCTA", "AAACGGTA"};
-        ans = solution.minMutation2(start, end, bank2);
-        System.out.println(ans);
+        ans = solution.minMutation(start, end, bank2);
+        ans2 = solution.minMutation2(start, end, bank2);
+        System.out.println(ans + "=====" + ans2);
 
         start = "AAAAACCC";
         end = "AACCCCCC";
         String[] bank3 = {"AAAACCCC", "AAACCCCC", "AACCCCCC"};
-        ans = solution.minMutation2(start, end, bank3);
-        System.out.println(ans);
+        ans = solution.minMutation(start, end, bank3);
+        ans2 = solution.minMutation2(start, end, bank3);
+        System.out.println(ans + "=====" + ans2);
     }
 }

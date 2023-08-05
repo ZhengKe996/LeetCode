@@ -109,11 +109,24 @@
 | 207 |  课程表  | [C++](C++/207/main.cpp) | [Java](Java/src/L207/Solution.java) |
 | 684 | 冗余连接 | [C++](C++/684/main.cpp) | [Java](Java/src/L684/Solution.java) |
 
-## 深度优先搜索(DFS)
+## 深度优先搜索(DFS)/广度优先搜索(BFS)
 
-| ID  |        Name        |           C++           |                Java                 |
-| :-: | :----------------: | :---------------------: | :---------------------------------: |
-| 17  | 电话号码的字母组合 | [C++](C++/17/main.cpp)  | [Java](Java/src/L17/Solution.java)  |
-| 51  |       N 皇后       | [C++](C++/51/main.cpp)  | [Java](Java/src/L51/Solution.java)  |
-| 200 |      岛屿数量      | [C++](C++/200/main.cpp) | [Java](Java/src/L200/Solution.java) |
-| 433 |    最小基因变化    | [C++](C++/433/main.cpp) | [Java](Java/src/L433/Solution.java) |
+| ID  |         Name         |           C++           |                Java                 |
+| :-: | :------------------: | :---------------------: | :---------------------------------: |
+| 17  |  电话号码的字母组合  | [C++](C++/17/main.cpp)  | [Java](Java/src/L17/Solution.java)  |
+| 51  |        N 皇后        | [C++](C++/51/main.cpp)  | [Java](Java/src/L51/Solution.java)  |
+| 200 |       岛屿数量       | [C++](C++/200/main.cpp) | [Java](Java/src/L200/Solution.java) |
+| 433 |     最小基因变化     | [C++](C++/433/main.cpp) | [Java](Java/src/L433/Solution.java) |
+| 329 | 矩阵中的最长递增路径 | [C++](C++/329/main.cpp) | [Java](Java/src/L329/Solution.java) |
+
+## 堆(最大、最小堆)
+
+| ID  |       Name        |           C++           |                Java                 |
+| :-: | :---------------: | :---------------------: | :---------------------------------: |
+| 23  | 合并 K 个升序链表 | [C++](C++/23/main.cpp)  | [Java](Java/src/L23/Solution.java)  |
+| 239 |  滑动窗口最大值   | [C++](C++/239/main.cpp) | [Java](Java/src/L239/Solution.java) |
+
+## 二叉搜索树(BST)
+
+| ID  | Name | C++ | Java |
+| :-: | :--: | :-: | :--: |
