@@ -7,7 +7,7 @@ public class Solution {
      * @param nums
      * @return
      */
-    public static int maxSubArray(int[] nums) {
+    public int maxSubArray(int[] nums) {
         int n = nums.length;
         int[] s = new int[n + 1];
         int[] preMin = new int[n + 1];
@@ -26,10 +26,25 @@ public class Solution {
         return ans;
     }
 
+    public int maxSubArray2(int[] nums) {
+        int n = nums.length;
+        int[] f = new int[n];
+        f[0] = nums[0];
+        for (int i = 1; i < n; i++) {
+            f[i] = Math.max(f[i - 1] + nums[i], nums[i]);
+        }
+        int ans = f[0];
+        for (int i = 1; i < n; i++) {
+            ans = Math.max(ans, f[i]);
+        }
+        return ans;
+    }
 
     public static void main(String[] args) {
-        int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        int i = maxSubArray(nums);
-        System.out.println(i);
+        Solution solution = new Solution();
+        int[] nums = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
+        int i = solution.maxSubArray(nums);
+        int i2 = solution.maxSubArray2(nums);
+        System.out.println(i + " " + i2);
     }
 }
