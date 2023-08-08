@@ -1,15 +1,7 @@
-package L122;
+package L714;
 
 public class Solution {
-    public int maxProfit(int[] prices) {
-        int ans = 0;
-        for (int i = 1; i < prices.length; i++) {
-            ans += Math.max(prices[i] - prices[i - 1], 0);
-        }
-        return ans;
-    }
-
-    public int maxProfit2(int[] prices) {
+    public int maxProfit(int[] prices, int fee) {
         // 0.Move index to 1-based
         int n = prices.length;
         int[] newArr = new int[n + 1];
@@ -29,7 +21,7 @@ public class Solution {
         // 2. Loop over all states;
         for (int i = 1; i <= n; i++) {
             // 3. Copy decisions 抄决策方程
-            f[i][1] = Math.max(f[i][1], f[i - 1][0] - newArr[i]);
+            f[i][1] = Math.max(f[i][1], f[i - 1][0] - newArr[i] - fee);
             f[i][0] = Math.max(f[i][0], f[i - 1][1] + newArr[i]);
             for (int j = 0; j < 2; j++) {
                 f[i][j] = Math.max(f[i][j], f[i - 1][j]);
@@ -41,12 +33,9 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-
         Solution solution = new Solution();
-        int[] prices = { 7, 1, 5, 3, 6, 4 };
-        int ans = solution.maxProfit(prices);
-        int ans2 = solution.maxProfit2(prices);
-        System.out.println(ans + " " + ans2);
-
+        int[] prices = { 1, 3, 2, 8, 4, 9 };
+        int fee = 2;
+        System.out.println(solution.maxProfit(prices, fee));
     }
 }

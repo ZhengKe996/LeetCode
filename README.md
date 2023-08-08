@@ -169,10 +169,20 @@
 |  45  |          跳跃游戏 II          |  [C++](C++/45/main.cpp)  |  [Java](Java/src/L45/Solution.java)  |
 | 1665 | 完成所有任务的最少初始能量 II | [C++](C++/1665/main.cpp) | [Java](Java/src/L1665/Solution.java) |
 
-## 动态规划
+## 动态规划(DP)
 
-|  ID  |        Name         |           C++            |                 Java                 |
-| :--: | :-----------------: | :----------------------: | :----------------------------------: |
-| 1143 | 最长公共子序列(LCS) | [C++](C++/1143/main.cpp) | [Java](Java/src/L1143/Solution.java) |
-| 300  | 最长递增子序列(LIS) | [C++](C++/300/main.cpp)  | [Java](Java/src/L300/Solution.java)  |
-|  53  |    最大子数组和     |  [C++](C++/53/main.cpp)  |  [Java](Java/src/L53/Solution.java)  |
+|  ID  |            Name            |           C++            |                 Java                 |
+| :--: | :------------------------: | :----------------------: | :----------------------------------: |
+| 1143 |    最长公共子序列(LCS)     | [C++](C++/1143/main.cpp) | [Java](Java/src/L1143/Solution.java) |
+| 300  |    最长递增子序列(LIS)     | [C++](C++/300/main.cpp)  | [Java](Java/src/L300/Solution.java)  |
+|  53  |        最大子数组和        |  [C++](C++/53/main.cpp)  |  [Java](Java/src/L53/Solution.java)  |
+| 152  |       乘积最大子数组       | [C++](C++/152/main.cpp)  | [Java](Java/src/L152/Solution.java)  |
+| 121  |     买卖股票的最佳时机     | [C++](C++/121/main.cpp)  | [Java](Java/src/L121/Solution.java)  |
+| 122  |   买卖股票的最佳时机 II    | [C++](C++/122/main.cpp)  | [Java](Java/src/L122/Solution.java)  |
+| 123  |   买卖股票的最佳时机 III   | [C++](C++/123/main.cpp)  | [Java](Java/src/L123/Solution.java)  |
+| 188  |   买卖股票的最佳时机 IV    | [C++](C++/188/main.cpp)  | [Java](Java/src/L188/Solution.java)  |
+| 714  | 买卖股票的最佳时机含手续费 | [C++](C++/714/main.cpp)  | [Java](Java/src/L714/Solution.java)  |
+| 309  | 买卖股票的最佳时机含冷冻期 | [C++](C++/309/main.cpp)  | [Java](Java/src/L309/Solution.java)  |
+| 198  |          打家劫舍          | [C++](C++/198/main.cpp)  | [Java](Java/src/L198/Solution.java)  |
+| 213  |        打家劫舍 II         | [C++](C++/213/main.cpp)  | [Java](Java/src/L213/Solution.java)  |
+|  72  |          编辑距离          |  [C++](C++/72/main.cpp)  |  [Java](Java/src/L72/Solution.java)  |
