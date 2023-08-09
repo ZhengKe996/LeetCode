@@ -186,3 +186,10 @@
 | 198  |          打家劫舍          | [C++](C++/198/main.cpp)  | [Java](Java/src/L198/Solution.java)  |
 | 213  |        打家劫舍 II         | [C++](C++/213/main.cpp)  | [Java](Java/src/L213/Solution.java)  |
 |  72  |          编辑距离          |  [C++](C++/72/main.cpp)  |  [Java](Java/src/L72/Solution.java)  |
+| 416  |        分割等和子集        | [C++](C++/416/main.cpp)  | [Java](Java/src/L416/Solution.java)  |
+| 518  |        零钱兑换 II         | [C++](C++/518/main.cpp)  | [Java](Java/src/L518/Solution.java)  |
+| 1499 |     满足不等式的最大值     | [C++](C++/1499/main.cpp) | [Java](Java/src/L1499/Solution.java) |
+| 918  |     环形子数组的最大和     | [C++](C++/918/main.cpp)  | [Java](Java/src/L918/Solution.java)  |
+| 312  |           戳气球           | [C++](C++/312/main.cpp)  | [Java](Java/src/L312/Solution.java)  |
+| 1000 |     合并石头的最低成本     | [C++](C++/1000/main.cpp) | [Java](Java/src/L1000/Solution.java) |
+| 337  |        打家劫舍 III        | [C++](C++/337/main.cpp)  | [Java](Java/src/L337/Solution.java)  |
